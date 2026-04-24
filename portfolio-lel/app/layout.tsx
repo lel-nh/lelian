@@ -12,7 +12,7 @@ const inter = Inter({
 
 export const metadata = {
   title: ".lel | Engineer Creator",
-  description: "Découvrez les projets de Lel, un développeur passionné par le web et les technologies modernes. Explorez une collection de projets innovants, allant du développement web à l'intelligence artificielle, tous conçus avec créativité et expertise.",
+  description: "Découvrez les projets de Lelian Nahon ESILV, un développeur passionné par le web et les technologies modernes. Explorez une collection de projets innovants, allant du développement web à l'intelligence artificielle, tous conçus avec créativité et expertise.",
   keywords: "portfolio, projets, développement web, intelligence artificielle, technologie, créativité"
 };
 
