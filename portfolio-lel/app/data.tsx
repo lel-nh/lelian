@@ -5,7 +5,7 @@ export const projects = [
     title: "Mycelium",
     categories: ["Design","Science"],
     date: "2024",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop",
+    image: "https://picsum.photos/400",
     description: "Refonte visuelle de la gamme running.",
     tags: ["UI", "Brand", "3D"]
   },
@@ -14,7 +14,7 @@ export const projects = [
     title: "Web App Store",
     categories: ["Dev"],
     date: "2023",
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop",
+    image: "https://picsum.photos/400",
     description: "Dashboard complexe pour e-commerce.",
     tags: ["Next.js", "React", "API"]
   },
@@ -23,7 +23,7 @@ export const projects = [
     title: "Editorial Mag",
     categories: ["Design"],
     date: "2024",
-    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=800&auto=format&fit=crop",
+    image: "https://picsum.photos/400",
     description: "Mise en page d'un magazine d'art.",
     tags: ["Print", "Typography"]
   },
@@ -32,7 +32,7 @@ export const projects = [
     title: "Eco Mobile App",
     categories: ["Dev"],
     date: "2024",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop",
+    image: "https://picsum.photos/400",
     description: "Application de suivi carbone.",
     tags: ["React Native", "Firebase"]
   }

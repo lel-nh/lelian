@@ -43,7 +43,7 @@ export default function ProjectDetail() {
             </h1>
             <div className="flex flex-wrap gap-4 mt-6">
               <span className="flex items-center gap-2 border-2 border-black px-3 py-1 bg-gabor-yellow font-bold text-sm uppercase">
-                <Tag size={14} /> {project.category}
+                <Tag size={14} /> {project.categories.join(', ')}
               </span>
               <span className="flex items-center gap-2 border-2 border-black px-3 py-1 bg-white font-bold text-sm uppercase">
                 <Calendar size={14} /> {project.date}
