@@ -21,7 +21,7 @@ export default function ArchivePage() {
       </h1>
 
       {/* Colonnes style Pinterest via CSS Columns */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6 space-x-6 flex justify-center text-center">
+ <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center text-center">
         {archiveItems.map((item) => (
           <motion.div
             key={item.id}
