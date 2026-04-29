@@ -21,26 +21,27 @@ export default function ArchivePage() {
       </h1>
 
       {/* Colonnes style Pinterest via CSS Columns */}
- <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center text-center">
-        {archiveItems.map((item) => (
-          <motion.div
-            key={item.id}
-            whileHover={{ scale: 1.05,
-              x: xMove, // Légère translation selon la position du curseur
-              y: yMove,
-            }}
-            className="break-inside-avoid p-2 inline-block w-full"
-          >
-            <img 
-              src={item.image} 
-              alt={item.title} 
-              className="w-full h-auto rounded-2xl p-2"
-              loading="lazy" // Bon pour le SEO et la performance !
-            />
-          {/*  <h3 className="text-xl font-bold uppercase mt-2">{item.title}</h3> */ }
-          </motion.div>
-        ))}
-      </div>
+ <div className="columns-1 sm:columns-2 lg:columns-3 gap-8 space-y-8 p-4">
+  {archiveItems.map((item) => (
+    <motion.div
+      key={item.id}
+      whileHover={{ 
+        scale: 1.02,
+        x: xMove, 
+        y: yMove,
+      }}
+      className="break-inside-avoid" // Empêche l'image de se couper entre deux colonnes
+    >
+      <img 
+        src={item.image} 
+        alt={item.title} 
+        className="w-full h-auto rounded-2xl border-2 border-transparent hover:border-white/10 transition-all"
+        loading="lazy"
+      />
+    </motion.div>
+  ))}
+</div>
+
     </section>
   );
 }

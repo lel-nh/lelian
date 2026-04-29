@@ -6,7 +6,7 @@ export const projects = [
     categories: ["Sciences"],
     date: "2025",
     image: "https://picsum.photos/400",
-    description: "Refonte visuelle de la gamme running.",
+    description: "Refonte visuelle de la gamme running. Création d'une identité visuelle forte et d'une expérience utilisateur immersive. Design d'une interface épurée et moderne, mettant en avant les produits de manière élégante et intuitive.  ",
     tags: ["UI", "Brand", "3D"]
   },
   {
